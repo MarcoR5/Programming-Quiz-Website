@@ -6,7 +6,7 @@
     export default function Html(){
     
     const [index, setIndex] = useState(0);
-    let [score, setScore] = useState(0);
+    const [score, setScore] = useState<number>(0);
     const [selected, setSelected] = useState(null);
     const [finished, setFinished] = useState(false)
     const questions = [
