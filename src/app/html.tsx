@@ -91,7 +91,7 @@
     " id is unique; class can be shared among elements",
     " id is for styling; class is for scripting",
     " Both are the same",
-    " You can’t have more than one class"
+    // " You can’t have more than one class"
   ]
 ]
     const img1 = [
