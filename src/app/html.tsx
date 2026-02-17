@@ -46,8 +46,8 @@
   ],
   [
    
-    " Use target=\"_blank\" to open in a new tab",
-    " Use newtab=\"true\"",
+    // " Use target=\"_blank\" to open in a new tab",
+    // " Use newtab=\"true\"",
     " Links open in a new tab by default",
     " Only JavaScript can open new tabs"
   ],
