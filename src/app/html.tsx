@@ -191,7 +191,7 @@
                 <img src="html.png" width={150} height={150} alt="" className="mr-5"/> <h2 className="text-8xl">HTML</h2>
                 </div>
                   <div className="text-center">
-                   <h1 className="text-6xl">CONGRADUALTIONS! <br /> YOUR SCORE IS <br /> {score}</h1>
+                   <h1 className="text-6xl">CONGRADULATIONS! <br /> YOUR SCORE IS <br /> {score}</h1>
                     <button  onClick={() => window.location.reload()} className="w-150  h-20 bg-btn2 rounded-lg mt-20  text-4xl">RETRY</button>
                   </div>
 
