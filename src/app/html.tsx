@@ -16,10 +16,10 @@
     "How does the <a> tag work, and how can you make a link open in a new tab?",
     "Explain the structure of a basic HTML5 document.",
     "What is the purpose of the alt attribute in the <img> tag?",
-    "What’s the difference between <ul>, <ol>, and <dl> lists in HTML?",
-    "How do you create a form in HTML and what are some commonly used input types?",
-    "What are HTML entities, and why are they used? Provide two examples.",
-    "What’s the difference between the id and class attributes in HTML elements?"
+    // "What’s the difference between <ul>, <ol>, and <dl> lists in HTML?",
+    // "How do you create a form in HTML and what are some commonly used input types?",
+    // "What are HTML entities, and why are they used? Provide two examples.",
+    // "What’s the difference between the id and class attributes in HTML elements?"
     ]
 
     const answers = [
