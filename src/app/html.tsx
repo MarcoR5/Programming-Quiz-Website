@@ -10,16 +10,16 @@
     const [selected, setSelected] = useState(null);
     const [finished, setFinished] = useState(false)
     const questions = [
-         "What does HTML stand for, and what is its primary purpose in web development?",
-    "What is the difference between <div> and <span> elements in HTML?",
-    "What are semantic HTML elements? Give three examples.",
-    "How does the <a> tag work, and how can you make a link open in a new tab?",
-    "Explain the structure of a basic HTML5 document.",
-    "What is the purpose of the alt attribute in the <img> tag?",
-    // "What’s the difference between <ul>, <ol>, and <dl> lists in HTML?",
-    // "How do you create a form in HTML and what are some commonly used input types?",
-    // "What are HTML entities, and why are they used? Provide two examples.",
-    // "What’s the difference between the id and class attributes in HTML elements?"
+      "What does HTML stand for, and what is its primary purpose in web development?",
+      "What is the difference between <div> and <span> elements in HTML?",
+      "What are semantic HTML elements? Give three examples.",
+      "How does the <a> tag work, and how can you make a link open in a new tab?",
+      "Explain the structure of a basic HTML5 document.",
+      "What is the purpose of the alt attribute in the <img> tag?",
+      "What’s the difference between <ul>, <ol>, and <dl> lists in HTML?",
+      "How do you create a form in HTML and what are some commonly used input types?",
+      "What are HTML entities, and why are they used? Provide two examples.",
+      "What’s the difference between the id and class attributes in HTML elements?"
     ]
 
     const answers = [
@@ -46,8 +46,8 @@
   ],
   [
    
-    // " Use target=\"_blank\" to open in a new tab",
-    // " Use newtab=\"true\"",
+    " Use target=\"_blank\" to open in a new tab",
+    " Use newtab=\"true\"",
     " Links open in a new tab by default",
     " Only JavaScript can open new tabs"
   ],
@@ -91,7 +91,7 @@
     " id is unique; class can be shared among elements",
     " id is for styling; class is for scripting",
     " Both are the same",
-    // " You can’t have more than one class"
+    " You can’t have more than one class"
   ]
 ]
     const img1 = [
@@ -104,7 +104,7 @@
   "HyperText Markup Language",
   "<div> is block-level, <span> is inline",
   "Elements that clearly describe their meaning (e.g., <article>, <section>)",
-  // "Use target=\"_blank\" to open in a new tab",
+  "Use target=\"_blank\" to open in a new tab",
   "It includes <!DOCTYPE html>, <html>, <head>, and <body>",
   "To describe the image for screen readers or when it fails to load",
   "<ul> is unordered, <ol> is ordered, <dl> is a description list",
