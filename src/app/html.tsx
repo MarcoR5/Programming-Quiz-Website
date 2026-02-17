@@ -104,7 +104,7 @@
   "HyperText Markup Language",
   "<div> is block-level, <span> is inline",
   "Elements that clearly describe their meaning (e.g., <article>, <section>)",
-  "Use target=\"_blank\" to open in a new tab",
+  // "Use target=\"_blank\" to open in a new tab",
   "It includes <!DOCTYPE html>, <html>, <head>, and <body>",
   "To describe the image for screen readers or when it fails to load",
   "<ul> is unordered, <ol> is ordered, <dl> is a description list",
