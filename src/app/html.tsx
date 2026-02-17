@@ -115,7 +115,7 @@
 
     let btnClass = "w-150  h-20 bg-btn rounded-lg mb-5  text-left flex items-center text-xl "
 
-    const handleA = (selectedAnswer) => {
+    const handleA = (selectedAnswer:any) => {
         const cleanAnswer = selectedAnswer.trim();
         setSelected(cleanAnswer);
      
