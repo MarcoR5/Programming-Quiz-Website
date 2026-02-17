@@ -7,7 +7,7 @@
     
     const [index, setIndex] = useState(0);
     const [score, setScore] = useState<number>(0);
-    const [selected, setSelected] = useState(null);
+    const [selected, setSelected] = useState("");
     const [finished, setFinished] = useState(false)
     const questions = [
       "What does HTML stand for, and what is its primary purpose in web development?",
@@ -113,9 +113,9 @@
   "id is unique; class can be shared among elements"
     ]
 
-    let btnClass = "w-150  h-20 bg-btn rounded-lg mb-5  text-left flex items-center text-xl "
+    const btnClass = "w-150  h-20 bg-btn rounded-lg mb-5  text-left flex items-center text-xl "
 
-    const handleA = (selectedAnswer) => {
+    const handleA = (selectedAnswer:string) => {
         const cleanAnswer = selectedAnswer.trim();
         setSelected(cleanAnswer);
      
